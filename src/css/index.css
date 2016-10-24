@@ -69,3 +69,42 @@ body, html {
 .header-main .main-list-item a:hover {
 	color: #f80000;
 }
+
+/* BANNER */
+
+.banner {
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	background-position: right center;
+	min-height: 500px;
+	position: relative;
+}
+.banner-bg {
+	background-image: url("../images/bg-red.png");
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.banner-text {
+	// background-color: yellow;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+.banner-text-contentButtons {
+	display: flex;
+}
+.banner-text-contentButtons .button {
+	margin-left: 8px;
+}
+.banner-text-contentLinks {
+	display: flex;
+}
+.banner-text-contentLinks .link {
+	margin-left: 8px;
+}
+
