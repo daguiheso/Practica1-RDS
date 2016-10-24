@@ -1,4 +1,8 @@
+/* GENERAL */
 
+body, html {
+	font-size: 16px;
+}
 
 /* HEADER */
 
@@ -11,28 +15,57 @@
 	background-color: yellow;
 	width: 20%;
 	display: inline-block;
-	vertical-align: top;
+	position: relative;
 }
 .header-logo img {
 	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 .header-main {
 	background-color: brown;
 	display: inline-block;
 	width: 80%;
 	float: right;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0 70px;
+	height: 45px;
+	line-height: 45px;
 }
 .header-main .links {
 	background-color: peru;
-	display: inline-block;
+	height: 45px;
+	line-height: 45px;
+	font-size: 0.88em;
+}
+.header-main .links a {
+	color: #333333;
+}
+.header-main .links a:nth-child(2){
+	float: right;
+}
+.header-main .main-list {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
 }
 .header-main .main-list-item {
+	height: 50%;
 	display: inline-block;
-	margin-right: 15px;
 }
 .header-main .main-list-item a {
-	color: black;
+	color: #333333;
 	text-decoration: none;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 1.12em;
 }
-
-
+.header-main .main-list-item a:hover {
+	color: #f80000;
+}
