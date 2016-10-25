@@ -4,6 +4,13 @@ body, html {
 	font-size: 16px;
 }
 
+/* UTILITIES */
+
+.u-container {
+	max-width: 1245px;
+	margin: 0 auto;
+}
+
 /* HEADER */
 
 .header {
@@ -126,6 +133,7 @@ body, html {
 
 .erpCloud {
 	display: flex;
+	justify-content: center;
 }
 .erpCloud-text {
 	display: flex;
