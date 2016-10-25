@@ -98,6 +98,7 @@ body, html {
 }
 .banner-text-title {
 	font-size: 2.12em;
+	margin: 0;
 }
 .banner-text-text {
 	font-size: 1.12em;
@@ -121,3 +122,30 @@ body, html {
 	font-size: 1.25em;
 }
 
+/* ERP CLOUD */
+
+.erpCloud {
+	display: flex;
+}
+.erpCloud-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.erpCloud-text-title {
+	font-size: 28px;
+}
+.erpCloud-text-list {
+	list-style: none;
+}
+.erpCloud-text-list .item {
+	margin: 0 0 20px;
+}
+.erpCloud-text-contentButtons {
+	display: flex;
+	justify-content: center;
+}
+.erpCloud-text-contentButtons .button {
+	padding: 18px 61px;
+	margin: 10px;
+}
