@@ -133,7 +133,7 @@ body, html {
 	justify-content: center;
 }
 .erpCloud-text-title {
-	font-size: 28px;
+	font-size: 1.75em;
 }
 .erpCloud-text-list {
 	list-style: none;
@@ -148,4 +148,11 @@ body, html {
 .erpCloud-text-contentButtons .button {
 	padding: 18px 61px;
 	margin: 10px;
+	border: 1px solid #006699;
+	color: #006699;
+	background: transparent;
+}
+.erpCloud-text-contentButtons .button:hover {
+	border: 1px solid black;
+	color: black;
 }
