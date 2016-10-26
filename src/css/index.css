@@ -207,3 +207,42 @@ body, html {
 .card-text-link {
 	font-size: 0.88em;
 }
+
+/* PLANNING */
+
+.planning {
+	background-color: #fafafa;
+	padding: 60px 30px;
+}
+.planning-content {
+	display: flex;
+}
+.planning-content-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.planning-content-text .title {
+	font-size: 1.75em;
+}
+.planning-content-text .list {
+	list-style: none;
+}
+.planning-content-text .list-item {
+	margin: 0 0 25px;
+}
+.planning-content-text .contentButtons {
+	display: flex;
+	justify-content: center;
+}
+.planning-content-text .contentButtons-button {
+	padding: 18px 61px;
+	margin: 10px;
+	border: 1px solid #006699;
+	color: #006699;
+	background: transparent;
+}
+.planning-content-text .contentButtons-button:hover {
+	border: 1px solid black;
+	color: black;
+}
