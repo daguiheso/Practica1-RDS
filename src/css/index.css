@@ -246,3 +246,75 @@ body, html {
 	border: 1px solid black;
 	color: black;
 }
+
+/* FOOTER */
+
+.footer {
+}
+
+/* FOOTER COLS */
+.footer-contentCols {
+	display: flex;
+	justify-content: space-between;
+	background-color: #fafafa;
+}
+.footer-contentCols-col {
+	padding: 50px 30px;
+}
+.footer-contentCols-col .title {
+	// text-align: center;
+	color: #1f4f82;
+	margin-bottom: 30px;
+}
+.footer-contentCols-col .list {
+	list-style: none;
+	padding: 0;
+}
+.footer-contentCols-col .list-item {
+	margin: 0 0 15px;
+}
+.footer-contentCols-col .list-item-link {
+	text-decoration: none;
+	font-size: 0.88em;
+}
+
+/* FOOTER BOTTOM */
+.footer-contentBottom {
+	position: relative;
+}
+.footer-contentBottom-title {
+	font-size: 1.25em;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.footer-contentBottom-title span {
+	color: #f80000;
+}
+.footer-contentBottom-listLinks {
+	list-style: none;
+	padding: 0;
+	font-size: 0.69em;
+}
+.footer-contentBottom-listLinks .item {
+	display: inline-block;
+}
+.footer-contentBottom-listLinks .item-link {
+	text-decoration: none;
+	color: black;
+}
+
+
+.footer-contentBottom-listSocial {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	right: 0;
+}
+.footer-contentBottom-listSocial .item {
+	display: inline-block;
+}
+.footer-contentBottom-listSocial .item-link {
+	text-decoration: none;
+	padding: 10px;
+}
