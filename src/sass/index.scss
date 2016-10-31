@@ -1,0 +1,77 @@
+/* GENERAL */
+
+body, html {
+	font-size: 16px;
+}
+
+/* UTILITIES */
+
+.u-container {
+	max-width: 1245px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+	background-color: green;
+	height: 90px;
+	&-logo {
+		height: 100%;
+		background-color: yellow;
+		width: 20%;
+		display: inline-block;
+		position: relative;
+		img {
+			width: 100%;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+	&-main {
+		background-color: brown;
+		display: inline-block;
+		width: 80%;
+		float: right;
+		height: 100%;
+		box-sizing: border-box;
+		padding: 0 70px;
+		height: 45px;
+		line-height: 45px;
+		.links {
+			background-color: peru;
+			height: 45px;
+			line-height: 45px;
+			font-size: 0.88em;
+			a {
+				color: #333333;
+				&:nth-child(2) {
+					float: right;
+				}
+			}
+		}
+		.main-list {
+			padding: 0;
+			margin: 0;
+			display: flex;
+			justify-content: space-between;
+			&-item {
+				height: 50%;
+				display: inline-block;
+				a {
+					color: #333333;
+					text-decoration: none;
+					padding: 10px;
+					font-weight: 600;
+					font-size: 1.12em;
+					&:hover {
+						color: #f80000;
+					}
+				}
+			}
+	}
+}
